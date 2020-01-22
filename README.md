@@ -1,2 +1,3 @@
 # ksb0511_C
-1day 1commit
+
+c++ (d열혈 C++ 프로그래밍)
