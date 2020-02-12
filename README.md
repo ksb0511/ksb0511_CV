@@ -1,5 +1,3 @@
-# ksb0511_C
-
 ## openCV 공부
 
 1. **source.cpp : pointOp 내용, 기본 자료형 클래스**
