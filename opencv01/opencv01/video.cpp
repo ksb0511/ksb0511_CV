@@ -35,7 +35,7 @@ void camera_in()
 		if (frame.empty())
 			break;
 
-		inversed = ~frame;
+		inversed = ~frame;	// 
 
 		imshow("frame", frame);
 		imshow("inversed", inversed);
@@ -99,7 +99,7 @@ void camera_in_video_out()
 	int fourcc = VideoWriter::fourcc('D', 'I', 'V', 'X');
 	int delay = cvRound(1000 / fps);
 
-	VideoWriter outputVideo("output.avi", fourcc, fps, Size(w, h));
+	VideoWriter outputVideo("output.avi", fourcc, fps, Size(w, h));	// output.avi 라는 동영상 파일을 생성함.
 
 	if (!outputVideo.isOpened()) {
 		cout << "File open failed!" << endl;
@@ -108,12 +108,12 @@ void camera_in_video_out()
 
 	Mat frame, inversed;
 	while (true) {
-		cap >> frame;
+		cap >> frame;		// 카메라로부터 한 프레임을 받아와 frame에 저장함.
 		if (frame.empty())
 			break;
 
-		inversed = ~frame;
-		outputVideo << inversed;
+		inversed = ~frame;		// 카메라 프레임을 반전시켜 inversed에 저장
+		outputVideo << inversed;	// 프레임 영상 inversed를 출력 동영상에 추가
 
 		imshow("frame", frame);
 		imshow("inversed", inversed);
