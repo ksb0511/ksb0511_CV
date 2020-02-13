@@ -144,8 +144,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="drawing.cpp" />
     <ClCompile Include="InputArrayOp.cpp" />
+    <ClCompile Include="keyboard.cpp" />
     <ClCompile Include="MatOp.cpp" />
+    <ClCompile Include="mouse.cpp" />
     <ClCompile Include="source.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>

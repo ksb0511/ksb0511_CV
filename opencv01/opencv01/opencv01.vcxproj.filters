@@ -30,5 +30,14 @@
     <ClCompile Include="InputArrayOp.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="drawing.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
